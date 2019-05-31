@@ -7,15 +7,9 @@ class describe extends Controller {
 		parent::__construct();
 	}
 
-	public function index() {
+	public function pdf($pdf) {
 
-		$this->word();
-	}
-
-	public function word($word = '') {
-
-		$data = $this->model->getWordDetails($word);
-		($data) ? $this->view('describe/word', $data) : $this->view('error/index');
+				
 	}
 }
 

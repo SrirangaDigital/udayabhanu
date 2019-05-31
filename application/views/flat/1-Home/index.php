@@ -1,105 +1,334 @@
-<div class="container">
-	<div class="row justify-content-center">
-		<div class="col-md-12">
-			<div id="carousel" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel" data-slide-to="1"></li>
-					<li data-target="#carousel" data-slide-to="2"></li>
-					<li data-target="#carousel" data-slide-to="3"></li>
-					<li data-target="#carousel" data-slide-to="4"></li>
-					<!-- <li data-target="#carousel" data-slide-to="5"></li> -->
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img class="img-responsive " src="<?=IMAGE_URL?>carousel/carousel1.jpg" alt="ಕರ್ನಾಟಕ ಸಂಸ್ಕೃತ ವಿಶ್ವವಿದ್ಯಾಲಯ ಶ್ರೀಯುತ ಶರ್ಮರಿಗೆ ನೀಡಿದ ಗೌರವ ಡಾಕ್ಟರೇಟ್ ಪ್ರಶಸ್ತಿ ಸಮಾರಂಭ">
-						<div class="carousel-caption pos-2-3-left scheme-dark">
-							<p class="caption-content">ಕರ್ನಾಟಕ ಸಂಸ್ಕೃತ ವಿಶ್ವವಿದ್ಯಾಲಯವು ಶ್ರೀಯುತ ಶರ್ಮರಿಗೆ ನೀಡಿದ ಗೌರವ ಡಾಕ್ಟರೇಟ್ ಪ್ರಶಸ್ತಿ ಸಮಾರಂಭ</p>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<img class="img-responsive " src="<?=IMAGE_URL?>carousel/carousel2.jpg" alt="ಧರ್ಮಸ್ಥಳದ ಧರ್ಮಾಧಿಕಾರಿ ಡಾ|| ವೀರೇಂದ್ರ ಹೆಗ್ಗಡೆಯವರು ಪುರಸ್ಕರಿಸುತ್ತಿರುವುದು">
-						<div class="carousel-caption pos-2-3-left scheme-dark">
-							<p class="caption-content">ಧರ್ಮಸ್ಥಳದ ಧರ್ಮಾಧಿಕಾರಿಗಳಾದ ಡಾ॥ ವೀರೇಂದ್ರ ಹೆಗ್ಗಡೆಯವರು ಪುರಸ್ಕರಿಸುತ್ತಿರುವುದು</p>
-						</div>
-					</div>
-					<!-- <div class="carousel-item">
-						<img class="img-responsive " src="<?=IMAGE_URL?>carousel/carousel3.jpg" alt="ಡಿ.ವಿ.ಜಿ. ಬಳಗದಿಂದ ಸಮ್ಮಾನ">
-						<div class="carousel-caption pos-2-3-left scheme-dark">
-							<p class="caption-content">ಕರ್ನಾಟಕ ಸಂಸ್ಕೃತ ವಿಶ್ವವಿದ್ಯಾಲಯವು ಶ್ರೀಯುತ ಶರ್ಮರಿಗೆ ನೀಡಿದ ಸಂಸ್ಕೃತ ಗ್ರಂಥ ಪುರಸ್ಕಾರ</p>
-						</div>
-					</div> -->
-					<div class="carousel-item">
-						<img class="img-responsive " src="<?=IMAGE_URL?>carousel/carousel5.jpg" alt="">
-						<div class="carousel-caption pos-2-3-left scheme-dark">
-							<p class="caption-content">ಎಡ: ರಾಷ್ಟ್ರದ ಅತ್ಯುತ್ತಮ ಶಿಕ್ಷಕ ಪ್ರಶಸ್ತಿ ಸ್ವೀಕರಿಸುವ ಸಂದರ್ಭ.<br />ಬಲ: ಗೌರವಾನ್ವಿತ ಶಂಕರದಯಾಳ್ ಶರ್ಮಾರವರಿಂದ ರಾಷ್ಟ್ರಪತಿ ಪ್ರಶಸ್ತಿ ಸ್ವೀಕರಿಸುವ ಸಂದರ್ಭ</p>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<img class="img-responsive " src="<?=IMAGE_URL?>carousel/carousel6.jpg" alt="">
-						<div class="carousel-caption pos-2-3-left scheme-dark">
-							<p class="caption-content">ರಾಷ್ಟ್ರಿಯ ಸಂಸ್ಕೃತ ವಿದ್ಯಾಪೀಠ ತಿರುಪತಿಯಿಂದ ಮಹಾಮಹೋಪಾಧ್ಯಾಯ ಪ್ರಶಸ್ತಿ ಪ್ರದಾನ</p>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<img class="img-responsive " src="<?=IMAGE_URL?>carousel/carousel4.jpg" alt="ಅಮೇರಿಕಾದ ವೈಟ್ ಹೌಸ್ ಮುಂಭಾಗದಲ್ಲಿ">
-						<div class="carousel-caption pos-2-3-left scheme-dark">
-							<p class="caption-content">ಅಮೇರಿಕಾದ ವೈಟ್ ಹೌಸ್ ಮುಂಭಾಗದಲ್ಲಿ ಡಾ॥ ವಿದ್ವಾನ್ ಎನ್. ರಂಗನಾಥಶರ್ಮಾ</p>
-						</div>
-					</div>
-					<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
-			</div>
+<div class="container flat-page">
+	<div class="row justify-content-center booksCollection">
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/001">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/001.jpg" />
+				<p class="title m-2">ಇತಿಹಾಸ</p>
+			</a>
 		</div>
-	</div>
-	<div class="row small-bio">
-		<div class="col-md-12 subtitle">
-			<h4>ರಂಗನಾಥಶರ್ಮರ ಕಿರು ಪರಿಚಯ</h4>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/002">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/002.jpg" />
+				<p class="title m-2">ಕೈಗಾರಿಕೆಗಳು ಮತ್ತು ವಿದ್ಯುತ್ ಶಕ್ತಿ</p>
+			</a>
 		</div>
-		<div class="col-md-8">
-			ಪುಣ್ಯಭೂಮಿ – ತಪೋಭೂಮಿ – ಕರ್ಮಭೂಮಿಯೆನಿಸಿದ ಭರತಭೂಮಿಯಲ್ಲಿ ಅದೆಷ್ಟೋ ಜ್ಞಾನಿಗಳು, ವಿಜ್ಞಾನಿಗಳು, ಅವಧೂತರು, ತಪಸ್ವಿಗಳು, ಸಾಧಕರು, ವಿದ್ವಾಂಸರು, ಪುಣ್ಯಾತ್ಮರು ಅವತರಿಸಿ ಜಗಕುಪಕರಿಸಿ ಬದುಕನ್ನು ಸಾರ್ಥಕವನ್ನಾಗಿಸಿದ್ದಾರೆ. ಇಂತಹ ಪರಂಪರೆಯಲ್ಲಿ ಅವತರಿಸಿದ ಸಾಧಕೋತ್ತಮ ವಿದ್ವಾಂಸರು ವಿದ್ವಾನ್ ಎನ್. ರಂಗನಾಥಶರ್ಮರು. ಸಹೃದಯತೆ-ಸದ್ಗುಣ-ಪಾಂಡಿತ್ಯಗಳ ಸಂಗಮಕ್ಕೊಂದು ಉತ್ತಮ ಉದಾಹರಣೆಯೆಂದರೆ ಶ್ರೀಯುತ ಶರ್ಮರು. ಭಾರತದೇಶದ ನೈಋತ್ಯ ಭಾಗದಲ್ಲಿ ದೇಶದ ಯಜಮಾನನೋ ಎಂಬಂತೆ ರಾರಾಜಿಸುತ್ತಿರುವ ರಾಜ್ಯವಾದ ಕರ್ನಾಟಕದಲ್ಲಿ ಮಲೆನಾಡಿನಿಂದಲೇ ಪ್ರಸಿದ್ಧಿಯನ್ನು ಹೊಂದಿದ ಶಿವಮೊಗ್ಗ ಜಿಲ್ಲೆಯ ಸೊರಬ ತಾಲ್ಲೂಕಿನ ನಡಹಳ್ಳಿಯು ಇವರ ಜನ್ಮಸ್ಥಳ. ಭಗವತ್ಪಾದಶಂಕರಾಚಾರ್ಯರು ಜಗಕವತರಿಸಿದ ಪರಮಪವಿತ್ರದಿನವಾದ ವೈಶಾಖಶುದ್ಧ ಪಂಚಮಿಯಂದು ಹಾಗೂ ಮರ್ಯಾದಾ ಪುರುಷೋತ್ತಮನಾದ ಶ್ರೀರಾಮಚಂದ್ರನು ಆವಿರ್ಭವಿಸಿದ ಪುಣ್ಯನಕ್ಷತ್ರವಾದ ಪುನರ್ವಸು ನಕ್ಷತ್ರದಲ್ಲಿ ಶ್ರೀಮತಿ ಜಾನಕಮ್ಮ ತಿಮ್ಮಪ್ಪ ದಂಪತಿಗಳ ಸುಪುತ್ರರಾಗಿ ೦೭-೦೪-೧೯೧೬ ರಂದು ಜನಿಸಿದರು. ವಿಶ್ವಾಮಿತ್ರ ಗೋತ್ರದ ಬೋಧಾಯನ ಸೂತ್ರದ ಯಜುರ್ವೇದಿಗಳಾದ ಶ್ರೀಯುತರು ಜಗದ್ಗುರು ಶಂಕರಾಚಾರ್ಯ ಮಹಾಸಂಸ್ಥಾನಮ್ – ಶ್ರೀಸಂಸ್ಥಾನ ಗೋಕರ್ಣ – ಶ್ರೀರಾಮಚಂದ್ರಾಪುರ ಮಠದ ಪಾರಂಪರಿಕ ಶಿಷ್ಯಪರಂಪರೆಗೆ ಸೇರಿದ ಸ್ಮಾರ್ತ ಬ್ರಾಹ್ಮಣ ಪಂಗಡಗಳಲ್ಲೊಂದಾದ ಹವ್ಯಕ ಪಂಗಡಕ್ಕೆ ಸೇರಿದವರು. <a href="<?=BASE_URL?>About">ಮುಂದೆ ಓದಿ...</a>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/003">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/003.jpg" />
+				<p class="title m-2">ಕೃಷಿ ಮತ್ತು ಸಂಬಂಧಿತ ಚಟುವಟಿಕೆಗಳು</p>
+			</a>
 		</div>
-		<div class="col-md-4 text-center">
-			<img class="img-thumbnail" src="<?=IMAGE_URL?>bioPic.jpg" alt="ರಂಗನಾಥಶರ್ಮಾ">
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/004">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/004.jpg" />
+				<p class="title m-2">ಶಿಕ್ಷಣ ಮತ್ತು ಕ್ರೀಡೆ</p>
+			</a>
 		</div>
-	</div>
-	<div class="row mt-5 awards">
-		<div class="col-md-12 subtitle">
-			<h4 class="text-left">ಪ್ರಶಸ್ತಿಗಳು ಮತ್ತು ಸಮ್ಮಾನಗಳು</h4>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/005">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/005.jpg" />
+				<p class="title m-2">ವೈದ್ಯಕೀಯ ಮತ್ತು ಆರೋಗ್ಯ ಸೇವೆಗಳು</p>
+			</a>
 		</div>
-		<div class="col-md-6">
-			<div class="row">
-				<div class="col-md-4 text-center"><img class="img-thumbnail" src="<?=IMAGE_URL?>awards3.jpg?v=1.1" alt="ರಂಗನಾಥಶರ್ಮಾ"></div>
-				<div class="col-md-4 text-center"><img class="img-thumbnail" src="<?=IMAGE_URL?>awards1.jpg" alt="ರಂಗನಾಥಶರ್ಮಾ"></div>
-				<div class="col-md-4 text-center"><img class="img-thumbnail" src="<?=IMAGE_URL?>awards2.jpg?v=1.1" alt="ರಂಗನಾಥಶರ್ಮಾ"></div>
-			</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/006">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/006.jpg" />
+				<p class="title m-2 english">A Concise History Of Science In India</p>
+			</a>
 		</div>
-		<div class="col-md-6">
-			ಭರತಖಂಡ ಕಂಡ ಅತಿವಿಶಿಷ್ಟ ಪಂಡಿತರು ಶ್ರೀಯುತ ಶರ್ಮರು. ಇವರ ಸಾಧನೆಯನ್ನು ಕಂಡು ಅರಸಿ ಬಂದ ಪ್ರಶಸ್ತಿಗಳು ನೂರಾರು. ನಡಹಳ್ಳಿಯ ಗ್ರಾಮಸ್ಥರ ಪ್ರೀತಿಯ ಸಮ್ಮಾನದಿಂದಾರಂಭಿಸಿ ರಾಷ್ಟ್ರಪತಿ ಪುರಸ್ಕಾರದವರೆಗಿನ ಎಲ್ಲ ಪ್ರಶಸ್ತಿಗಳೂ ಇವರಿಗೆ ಸಂದಿವೆ. ಅನೇಕ ಮಠಗಳು, ವಿಶ್ವವಿದ್ಯಾಲಯಗಳು, ಸಾರ್ವಜನಿಕ ಸಂಸ್ಥೆಗಳು, ಸರಕಾರ ಇವರಿಗೆ ಪ್ರಶಸ್ತಿ ನೀಡುವ ಮೂಲಕ ತಮ್ಮ ಸಂಸ್ಥೆಯ ಗೌರವವನ್ನು ಹೆಚ್ಚಿಸಿಕೊಂಡಿವೆ. <a href="<?=BASE_URL?>About#nav-award" >ಇನ್ನಷ್ಟು ನೋಡಿ...</a>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/007">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/007.jpg" />
+				<p class="title m-2 english">Alternative Sciences</p>
+			</a>
 		</div>
-	</div>
-	<div class="row mt-5 paperClippings" id="paperClippings">
-		<div class="col-md-12 subtitle">
-			<h4 class="text-left">ಪತ್ರಿಕಾ ವರದಿಗಳು</h4>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/008">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/008.jpg" />
+				<p class="title m-2 english">Ancient Glass And India</p>
+			</a>
 		</div>
-		<div class="col-md-6">
-			<div class="row">
-				<div class="col-md-4 text-center"><img class="img-thumbnail" src="<?=IMAGE_URL?>paper1.jpg" alt="ರಂಗನಾಥಶರ್ಮಾ"></div>
-				<div class="col-md-4 text-center"><img class="img-thumbnail" src="<?=IMAGE_URL?>paper2.jpg" alt="ರಂಗನಾಥಶರ್ಮಾ"></div>
-				<div class="col-md-4 text-center"><img class="img-thumbnail" src="<?=IMAGE_URL?>paper3.jpg" alt="ರಂಗನಾಥಶರ್ಮಾ"></div>
-			</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/009">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/009.jpg" />
+				<p class="title m-2 english">Atomic Energy In India</p>
+			</a>
 		</div>
-		<div class="col-md-6">
-			ಡಾ॥ ವಿದ್ವಾನ್ ಎನ್. ರಂಗನಾಥಶರ್ಮರವರಿಗೆ ಕವಿತಾ ರಚನೆ, ಚರ್ಚಾಸ್ಪರ್ಧೆ, ಭಾಷಣ ಸ್ಪರ್ಧೆಗಳಲ್ಲಿ ಭಾಗವಹಿಸುವುದೆಂದರೆ ಅಪರಿಮಿತೋತ್ಸಾಹ. ಬಾಲ್ಯದಿಂದಲೇ ಪುಸ್ತಕದ ಹುಳು ಎನಿಸಿಕೊಂಡಿದ್ದರು. ವೃತ್ತಿಜೀವನದಲ್ಲಂತೂ ಪ್ರತಿಕ್ಷಣವನ್ನೂ ಅಧ್ಯಯನ ಅಥವಾ ಅಧ್ಯಾಪನಕ್ಕೆ ವಿನಿಯೋಗಿಸುತ್ತಿದ್ದರು. ಅನೇಕ ದಿನಪತ್ರಿಕೆ, ವಾರಪತ್ರಿಕೆ, ಮಾಸಪತ್ರಿಕೆಗಳಲ್ಲಿ ಲೇಖನಗಳನ್ನು ಬರೆಯುವ ಮೂಲಕ ನಿರಂತರವಾಗಿ ಸ್ವಚಿಂತನೆಗಳನ್ನು <a href="<?=BASE_URL?>About#nav-paper-article">ಇನ್ನಷ್ಟು ನೋಡಿ...</a>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/010">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/010.jpg" />
+				<p class="title m-2 english">Centenary Review Of The Asiatic Society Of Bengal 1784 - 1884</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/011">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/011.jpg" />
+				<p class="title m-2 english">Colonialism Nationalism & Scientism</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/012">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/012.jpg" />
+				<p class="title m-2 english">Eastern Religions And Western Thought</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/013">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/013.jpg" />
+				<p class="title m-2 english">Encyclopaedia Of Classical Indian Sciences</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/014">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/014.jpg" />
+				<p class="title m-2 english">Founders Of Sciences In Ancient India</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/015">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/015.jpg" />
+				<p class="title m-2 english">Growth Of Scientific Periodicals In India (1788-1900)</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/016">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/016.jpg" />
+				<p class="title m-2 english">History Of Nal - A Pictorial Account</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/017">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/017.jpg" />
+				<p class="title m-2 english">History Of Technology In India</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/018">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/018.jpg" />
+				<p class="title m-2 english">Indian Journal Of History Of Science</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/019">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/019.jpg" />
+				<p class="title m-2 english">Innovative India - Science And Technology Review</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/020">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/020.jpg" />
+				<p class="title m-2 english">India</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/021">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/021.jpg" />
+				<p class="title m-2">ಕರ್ನಾಟಕ ಪರಂಪರೆ</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/022">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/022.jpg" />
+				<p class="title m-2 english">K. S. Krishnan - Birth Centenary (1898 - 1998)</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/023">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/023.jpg" />
+				<p class="title m-2 english">Science In India - Past And Present</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/024">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/024.jpg" />
+				<p class="title m-2 english">Science And Technology In India Achivements And Highlights 2009 - 2010</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/025">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/025.jpg" />
+				<p class="title m-2 english">Science And Technology In Indian Culture</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/026">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/026.jpg" />
+				<p class="title m-2 english">Science And The Imagination Of Modern India</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/027">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/027.jpg" />
+				<p class="title m-2 english">Science And The Raj 1857 - 1905</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/028">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/028.jpg" />
+				<p class="title m-2 english">The Saga Of Indian Science Since Independence</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/029">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/029.jpg" />
+				<p class="title m-2 english">The Science Of Empire</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/030">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/030.jpg" />
+				<p class="title m-2 english">The Shaping Of Indian Science</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/031">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/031.jpg" />
+				<p class="title m-2">ವಿದ್ಯುತ್ಕಾಂತ ಸಿದ್ಧಾಂತ</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/032">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/032.jpg" />
+				<p class="title m-2">ವಿಜ್ಞಾನ</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/033">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/033.jpg" />
+				<p class="title m-2 english">A Century</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/034">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/034.jpg" />
+				<p class="title m-2 english">Addresses By Presidents - 1935-1984</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/035">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/035.jpg" />
+				<p class="title m-2 english">A History Of Hindu Chemistry - Vol - I & Vol - II</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/036">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/036.jpg" />
+				<p class="title m-2 english">Astronomy In India - Past, Present And Future</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/037">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/037.jpg" />
+				<p class="title m-2 english">Astronomy In India: A Historical Perspective</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/038">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/038.jpg" />
+				<p class="title m-2 english">Brighter Than A Thousand Suns</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/039">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/039.jpg" />
+				<p class="title m-2 english">Constructing Culture Of Science</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/040">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/040.jpg" />
+				<p class="title m-2 english">Glimpses Of Science In India</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/041">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/041.jpg" />
+				<p class="title m-2 english">History Of Science And Scientific Method</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/042">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/042.jpg" />
+				<p class="title m-2 english">History Of The Calendar</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/043">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/043.jpg" />
+				<p class="title m-2 english">The Progress Of Science In India During The Past Twenty-five Years</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/044">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/044.jpg" />
+				<p class="title m-2 english">India Science And Technology</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/045">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/045.jpg" />
+				<p class="title m-2 english">Indian Science Era Of Stabilisation</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/046">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/046.jpg" />
+				<p class="title m-2 english">India's Rise As A Space Power</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/047">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/047.jpg" />
+				<p class="title m-2 english">In Pursuit Of Excellence</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/048">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/048.jpg" />
+				<p class="title m-2 english">Physics In India</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/049">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/049.jpg" />
+				<p class="title m-2 english">Pursuit And Promotion Of Science</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/050">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/050.jpg" />
+				<p class="title m-2 english">Science And Quality Of Life</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/051">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/051.jpg" />
+				<p class="title m-2 english">Science In India</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/052">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/052.jpg" />
+				<p class="title m-2 english">Science, Technology And Higher Education</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/053">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/053.jpg" />
+				<p class="title m-2 english">Technology At The Core</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/054">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/054.jpg" />
+				<p class="title m-2 english">The Shaping Of Indian Science</p>
+			</a>
+		</div>
+		<div class="col-md-3 mt-5">
+			<a href="<?=BASE_URL?>describe/pdf/055">
+				<img class="img-fluid" src="<?=IMAGE_URL?>books/055.jpg" />
+				<p class="title m-2 english">History Of Science, Philosophy And Culture In Indian Civilization</p>
+			</a>
 		</div>
 	</div>
 </div>
-<br/>
-<br/>

@@ -11,6 +11,8 @@ require_once 'config/settings.php';
 require_once 'config/schema.php';
 require_once 'config/messages.php';
 
+require_once 'application/views/viewHelper.php';
+
 $app = new App;
 
 ?>

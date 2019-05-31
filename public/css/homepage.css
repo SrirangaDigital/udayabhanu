@@ -13,7 +13,7 @@ a {
   color: #1565C0;
 }
 .flat-page, .dynamic-page{
-    margin-top: 80px;
+    margin-top: 150px;
     color: #222;
 }
 .booksCollection{
@@ -26,127 +26,14 @@ a {
     box-shadow: 0 1px 15px rgba(0,0,0,0.5);
     border-radius: 5px;
 }
-.toc li{
-    padding-bottom: 5px;
+iframe{
+  width: 100%;
+  min-height: 400px;
+  border: none;
 }
-.copyright{
-    padding-top: 5px;
-}
-.copyright dl {
-    font-size: 14px;
-    margin-left: 40px;
-}
-.dedication h2, .author h2{
-    text-align: center;
-}
-.dedication .verse{
-    font-size: 24px;
-    line-height: 40px;
-    color: #D50000;
-}
-.blessing p{
-    color: #D50000;
-}
-.blessing img{
-    margin-bottom: 20px;
-}
-.padding-zero{
-  padding: 0px;
-}
-.card-body{
-  color: 
-}
-.small-bio{
-  background-color: #F0F0F0;
-  margin-top: 25px;
-  padding: 20px;
-  line-height: 1.5em;
-  text-align: justify;
-  font-size: 20px;
-}
-.small-bio img{
-  margin: 10px;
-  width: 330px;
-}
-.bio h2, .bio h4{
-  color: #1565C0;
-}
-#viewimages img{
-  cursor: pointer;
-}
-.bio, .feedback{
-  padding: 10px;
-  line-height: 1.5em;
-  text-align: justify;
-  font-size: 20px; 
-}
-.contact{
-  background-color: #D3D3D3;
-  margin-top: 25px;
-  padding: 20px;
-  line-height: 1.5em;
-  text-align: justify;
-  font-size: 20px;
-}
-.en{
-  font-family: 'Courgette', cursive;
-  font-size: 17px;
-}
-.awards{
-  background-color: #FFE8EC;
-  margin-top: 25px;
-  padding: 20px;
-  line-height: 1.5em;
-  text-align: justify;
-  font-size: 20px;
-}
-.awards img{
-  height: 300px;
-  margin: 20px auto 20px auto;
-  text-align: center;
-}
-.paperClippings{
-  background-color: #DAE4FD;
-  margin-top: 25px;
-  padding: 20px;
-  line-height: 1.5em;
-  text-align: justify;
-  font-size: 20px;
-}
-.paperClippings img{
-  height: 300px;
-  margin: 20px auto 20px auto;
-  text-align: center;
-}
-.subtitle{
-  color: #D50000;
-}
-.subtitle h4{
-  font-size: 23px;
-  margin-bottom: 20px;
-}
-.card-title {
-    font-size: 20px;
-    margin-top: 15px;
-    color: #0056b3;
-}
-.card-title, a:link {
-  text-decoration: none;
-}
-.kruthigalu img{
-  box-shadow: 0 1px 15px rgba(0,0,0,0.5);
-  border-radius: 5px;
-}
-.gallery figure{
-  margin: 10px;
-}
-.gallery figcaption{
-  font-size: 17px;
-}
-
 @media(min-width:768px) {
     .flat-page, .dynamic-page{
-        margin-top: 90px;
+        margin-top: 100px;
     }
     .dedication h2, .author h2{
         text-align: left;

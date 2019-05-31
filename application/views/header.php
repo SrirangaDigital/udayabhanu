@@ -4,19 +4,12 @@
     <!-- Google Analytics
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59279345-7"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-59279345-7');
-    </script>
+    <!-- <script async src=""></script> -->
     
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title><?php if($pageTitle) echo $pageTitle . ' | '; ?>ಡಾ॥ ವಿದ್ವಾನ್ ಎನ್. ರಂಗನಾಥಶರ್ಮಾ</title>
+    <title><?php if($pageTitle) echo $pageTitle . ' | '; ?>ಉದಯಭಾನು</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -60,30 +53,12 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <nav id="mainNavBar" class="navbar navbar-light navbar-expand-lg fixed-top">
         <div class="container-fluid clear-paddings">
-            <a class="navbar-brand" href="<?=BASE_URL?>"><img src="<?=PUBLIC_URL?>images/logo.png" alt="Logo" class="logo"></a>
-            <p class="navbar-text" id="navbarText"><small>ಮಹಾಮಹೋಪಾಧ್ಯಾಯ</small><br />ಡಾ॥ ವಿದ್ವಾನ್ ಎನ್. ರಂಗನಾಥಶರ್ಮಾ</p>
+            <a class="navbar-brand" href="<?=BASE_URL?>"><img src="<?=PUBLIC_URL?>images/udayabhanu.jpg" alt="Logo" class="logo"></a>
+            <p class="navbar-text" id="navbarText">ಉದಯಭಾನು</p>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav nav ml-auto">
-                    <li><a href="<?=BASE_URL?>">ಮುಖಪುಟ</a></li>
-                    <li><small><a class="dot" href="javascript:void();">•</a></small></li>
-                    <li><a href="<?=BASE_URL?>About">ಶರ್ಮರ ಬಗ್ಗೆ</a></li>
-                    <li><small><a class="dot" href="javascript:void();">•</a></small></li>
-                    <li><a href="<?=BASE_URL?>Krutigalu">ಕೃತಿಗಳು</a></li>
-                    <li><small><a class="dot" href="javascript:void();">•</a></small></li>
-                    <li><a href="<?=BASE_URL?>Gallery/Photos">ಚಿತ್ರಶಾಲೆ</a></li>
-                    <!-- <li class="dropdown">
-                        <a class="dropdown-toggle" href="http://example.com" data-toggle="dropdown" aria-haspopup="true">ಚಿತ್ರಶಾಲೆ</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="<?=BASE_URL?>Gallery/Photos">ಚಿತ್ರಗಳು</a>
-                          <p class="divider">&nbsp;</p>
-                          <a class="dropdown-item" href="#">ದೃಶ್ಯಗಳು</a>
-                        </div>
-                      </li> -->
-                    <li><small><a class="dot" href="javascript:void();">•</a></small></li>
-                    <li><a href="<?=BASE_URL?>AboutOurself">ನಮ್ಮ ಬಗ್ಗೆ</a></li>
-                    <!-- <li><small><a class="dot" href="javascript:void();">•</a></small></li>
-                    <li><a href="<?=BASE_URL?>#contact">ನಮ್ಮ ಸಂಪರ್ಕ</a></li> -->
+                    <li><a href="<?=BASE_URL?>user/login">Login</a></li>
                 </ul>
             </div>
         </div>

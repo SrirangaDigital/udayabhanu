@@ -4,7 +4,8 @@ class Controller {
 
 	public function __construct() {
 
-		session_start();
+		if(!isset($_SESSION)) session_start();
+		$this->viewHelper = new viewHelper();
 	}
 
 	public function loadModel($model) {
