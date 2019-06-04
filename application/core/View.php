@@ -9,18 +9,6 @@ class View {
 
 	}
 	
-	public function getJournalFromPath($path = '') {
-
-		$journal = '';
-		$url = explode('/', preg_replace('/_/', ' ', $path));
-		if (isset($url[2])) {
-		
-			$journal = array_search($url[2], $this->journalFullNames);
-		}
-		$journal = ($journal) ? $journal : '';
-		return $journal;
-	}
-
 	public function getActualPath($path = '', $folderList = array()) {
 
 		$pathRegex = str_replace('/', '\/[0-9]+\-*', $path) . '$';
@@ -112,6 +100,14 @@ class View {
 		require_once 'application/views/footer.php';
     }
 
+    public function showFullScreenPage($data = array(), $path = '', $actualPath = '', $journal = '', $navigation = array(), $current = array()) {
+
+		$viewHelper = new viewHelper();
+		$pageTitle = $this->getPageTitle($viewHelper, $path);
+
+		require_once 'application/views/flatPageContainer.php';
+    }
+
     public function printNavigation($navigation = array(), $ulClass = ' class="nav navbar-nav navbar-right"', $liClass = ' class="dropdown"') {
 
         echo '<ul' . $ulClass . '>' . "\n";
@@ -176,10 +172,9 @@ class View {
         	echo '<li>' . $item . '</li>';
         }
         echo '</ol>';
-
     }
 
-    private function processNavPath($path) {
+	private function processNavPath($path) {
 
         $path = preg_replace('/\/[0-9]+\-/', '/', $path);
         $path = explode('/', $path);

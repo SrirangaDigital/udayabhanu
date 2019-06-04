@@ -39,13 +39,11 @@
 
     <!-- Fonts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Halant:300&amp;subset=devanagari" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,700" rel="stylesheet">
     
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="<?=PUBLIC_URL?>images/favicon.ico">
+    <link rel="icon" type="image/png" href="<?=PUBLIC_URL?>images/logo.png">
 </head>
 <body>
 
@@ -58,7 +56,11 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav nav ml-auto">
-                    <li><a href="<?=BASE_URL?>user/login">Login</a></li>
+<?php if($viewHelper->isLoggedIn()) { ?>
+                    <li><a href="<?=BASE_URL?>user/logout"><span class="english">Logout</span></a></li>
+<?php } else {?>
+                    <li><a href="<?=BASE_URL?>user/login"><span class="english">Login</span></a></li>
+<?php } ?>
                 </ul>
             </div>
         </div>

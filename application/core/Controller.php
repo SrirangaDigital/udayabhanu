@@ -58,6 +58,24 @@ class Controller {
 		@header('Location: ' . $path);
 	}
 
+	public function viewFullScreen($path, $data = array()) {
+
+		$view = new View();
+		$model = new Model();
+		
+		// Get Navigation array in nested form	
+		$navigation = $view->getNavigation(PHY_FLAT_URL);
+		// Get folder list in flat form
+		$folderList = $view->getFolderList($navigation);
+		// Get actual path void of sorting numbers
+		$actualPath = $view->getActualPath($path, $folderList);
+		// Actual path is given path for dynamic pages
+		if(!($actualPath)) $actualPath = $path;
+		// Show Page
+
+		$view->showFullScreenPage($data, $path, $actualPath);
+	}
+
 }
 
 ?>

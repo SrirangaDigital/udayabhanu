@@ -28,8 +28,7 @@ class user extends Controller {
 
 		if($this->viewHelper->isLoggedIn()) {
 
-			$redirectUrl = ($this->viewHelper->isLoggedInAsAdmin()) ? BASE_URL : BASE_URL . 'profile/v/' . $_SESSION['auth_username'];
-			$this->absoluteRedirect($redirectUrl);
+			$this->absoluteRedirect(BASE_URL);
 			return;
 		}
 				
